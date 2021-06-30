@@ -2,11 +2,11 @@
 
 https://github.com/apache/mesos
 
-Last updated on May 19, 2021
+Last updated on Jun 29, 2021
 
-**Rating**: **MODERATE**
+**Rating**: **BAD**
 
-**Score**: **4.63**, max score value is 10.0
+**Score**: **4.5**, max score value is 10.0
 
 **Confidence**: Max (10.0, max confidence value is 10.0)
 
@@ -46,8 +46,9 @@ It used the following sub-scores:
             1.  **[FindSecBugs score](#findsecbugs-score)**: **0.0** (weight is 0.5)
         1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
 1.  **[Community commitment](#community-commitment)**: **7.0** (weight is 0.5)
-1.  **[Project activity](#project-activity)**: **0.97** (weight is 0.5)
-1.  **[Project popularity](#project-popularity)**: **6.07** (weight is 0.5)
+1.  **[Project activity](#project-activity)**: **2.37** (weight is 0.5)
+1.  **[Project popularity](#project-popularity)**: **6.09** (weight is 0.5)
+1.  **[Security reviews](#security-reviews)**: **0.0** (weight is 0.3)
 
 
 ## How to improve the rating
@@ -79,6 +80,15 @@ It used the following sub-scores:
 9.  You can include the project to OSS-Fuzz. Then, the project is going to be regularly fuzzed.
     More info:
     1.  [The OSS-Fuzz project](https://github.com/google/oss-fuzz)
+10.  You can configure Dependabot by creating a configuration file.
+    More info:
+    1.  [Configuration options for dependency updates](https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates)
+11.  You can enable artifact signing in the project's build pipeline.
+    More info:
+    1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
+12.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores
@@ -189,21 +199,21 @@ This sub-score is based on 3 features:
 
 ### Project activity
 
-Score: **0.97**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **2.37**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-6 commits in the last 3 months results to 0.92 points
-2 contributors increase the score value from 0.92 to 0.97
+14 commits in the last 3 months results to 2.15 points
+3 contributors increase the score value from 2.15 to 2.37
 
 This sub-score is based on 2 features:
 
-1.  Number of commits in the last three months: **6**
-1.  Number of contributors in the last three months: **2**
+1.  Number of commits in the last three months: **14**
+1.  Number of contributors in the last three months: **3**
 
 ### Project popularity
 
-Score: **6.07**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **6.09**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score is based on number of stars and watchers.
 Here is how a number of stars contributes to the score:
@@ -215,8 +225,20 @@ Here is how a number of watchers contributes to the score:
 
 This sub-score is based on 2 features:
 
-1.  Number of stars for a GitHub repository: **4731**
-1.  Number of watchers for a GitHub repository: **402**
+1.  Number of stars for a GitHub repository: **4752**
+1.  Number of watchers for a GitHub repository: **400**
+
+### Security reviews
+
+Score: **0.0**, confidence is 10.0 (max), weight is 0.3 (medium)
+
+
+
+No security reviews have been done
+
+This sub-score is based on 1 feature:
+
+1.  Info about security reviews: **0 security reviews**
 
 ### Dependency testing
 

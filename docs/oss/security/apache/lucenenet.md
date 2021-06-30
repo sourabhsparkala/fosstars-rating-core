@@ -2,11 +2,11 @@
 
 https://github.com/apache/lucenenet
 
-Last updated on May 19, 2021
+Last updated on Jun 29, 2021
 
 **Rating**: **MODERATE**
 
-**Score**: **5.34**, max score value is 10.0
+**Score**: **5.03**, max score value is 10.0
 
 **Confidence**: Max (10.0, max confidence value is 10.0)
 
@@ -47,7 +47,8 @@ It used the following sub-scores:
         1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
 1.  **[Community commitment](#community-commitment)**: **7.0** (weight is 0.5)
 1.  **[Project activity](#project-activity)**: **10.0** (weight is 0.5)
-1.  **[Project popularity](#project-popularity)**: **2.18** (weight is 0.5)
+1.  **[Project popularity](#project-popularity)**: **2.2** (weight is 0.5)
+1.  **[Security reviews](#security-reviews)**: **0.0** (weight is 0.3)
 
 
 ## How to improve the rating
@@ -67,6 +68,12 @@ It used the following sub-scores:
 5.  You can open a pull request to enable FindSecBugs for the project.
     More info:
     1.  [FindSecBugs home page](https://find-sec-bugs.github.io/)
+6.  You can enable artifact signing in the project's build pipeline.
+    More info:
+    1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
+7.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores
@@ -181,17 +188,17 @@ Score: **10.0**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-343 commits in the last 3 months results to 10.00 points
+186 commits in the last 3 months results to 10.00 points
 4 contributors increase the score value from 10.00 to 11.00
 
 This sub-score is based on 2 features:
 
-1.  Number of commits in the last three months: **343**
+1.  Number of commits in the last three months: **186**
 1.  Number of contributors in the last three months: **4**
 
 ### Project popularity
 
-Score: **2.18**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **2.2**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score is based on number of stars and watchers.
 Here is how a number of stars contributes to the score:
@@ -203,8 +210,20 @@ Here is how a number of watchers contributes to the score:
 
 This sub-score is based on 2 features:
 
-1.  Number of stars for a GitHub repository: **1602**
+1.  Number of stars for a GitHub repository: **1620**
 1.  Number of watchers for a GitHub repository: **174**
+
+### Security reviews
+
+Score: **0.0**, confidence is 10.0 (max), weight is 0.3 (medium)
+
+
+
+No security reviews have been done
+
+This sub-score is based on 1 feature:
+
+1.  Info about security reviews: **0 security reviews**
 
 ### Dependency testing
 

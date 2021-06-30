@@ -75,6 +75,21 @@ It used the following sub-scores:
 7.  You can include the project to OSS-Fuzz. Then, the project is going to be regularly fuzzed.
     More info:
     1.  [The OSS-Fuzz project](https://github.com/google/oss-fuzz)
+8.  You can add OWASP Dependency Check to the project's build pipeline.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [How to use OWASP Dependency Check with Maven](https://jeremylong.github.io/DependencyCheck/dependency-check-maven)
+    3.  [How to use OWASP Dependnecy Check with Gradle](https://github.com/dependency-check/dependency-check-gradle)
+9.  You can set a CVSS threshold for vulnerabilities reported by OWASP Dependency Check.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [Configuring OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/configuration.html)
+10.  You can enable artifact signing in the project's build pipeline.
+    More info:
+    1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
+11.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores

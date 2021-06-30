@@ -72,6 +72,21 @@ It used the following sub-scores:
 6.  You can open a pull request to enable FindSecBugs for the project.
     More info:
     1.  [FindSecBugs home page](https://find-sec-bugs.github.io/)
+7.  You can configure Dependabot by creating a configuration file.
+    More info:
+    1.  [Configuration options for dependency updates](https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates)
+8.  You can add OWASP Dependency Check to the project's build pipeline.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [How to use OWASP Dependency Check with Maven](https://jeremylong.github.io/DependencyCheck/dependency-check-maven)
+    3.  [How to use OWASP Dependnecy Check with Gradle](https://github.com/dependency-check/dependency-check-gradle)
+9.  You can set a CVSS threshold for vulnerabilities reported by OWASP Dependency Check.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [Configuring OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/configuration.html)
+10.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores

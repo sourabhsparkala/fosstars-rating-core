@@ -67,6 +67,12 @@ It used the following sub-scores:
 5.  You can open a pull request to enable MemorySanitizer for the project.
     More info:
     1.  [About MemorySanitizer](https://github.com/google/sanitizers/wiki/MemorySanitizer)
+6.  You can enable artifact signing in the project's build pipeline.
+    More info:
+    1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
+7.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores

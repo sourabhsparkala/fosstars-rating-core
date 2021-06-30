@@ -2,11 +2,11 @@
 
 https://github.com/bcgit/bc-java
 
-Last updated on May 19, 2021
+Last updated on Jun 29, 2021
 
 **Rating**: **BAD**
 
-**Score**: **3.76**, max score value is 10.0
+**Score**: **4.11**, max score value is 10.0
 
 **Confidence**: Max (10.0, max confidence value is 10.0)
 
@@ -20,34 +20,35 @@ The rating is based on **security score for open-source projects**.
 
 It used the following sub-scores:
 
-1.  **[Security testing](#security-testing)**: **1.12** (weight is 1.0)
-    1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
-        1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
-        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+1.  **[Security testing](#security-testing)**: **3.12** (weight is 1.0)
     1.  **[Static analysis](#static-analysis)**: **2.8** (weight is 1.0)
         1.  **[LGTM score](#lgtm-score)**: **7.0** (weight is 1.0)
         1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
         1.  **[FindSecBugs score](#findsecbugs-score)**: **0.0** (weight is 0.5)
+    1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
+        1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
     1.  **[Fuzzing](#fuzzing)**: **N/A** (weight is 1.0)
     1.  **[Memory-safety testing](#memory-safety-testing)**: **N/A** (weight is 1.0)
-    1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
-1.  **[Security awareness](#security-awareness)**: **2.0** (weight is 0.9)
+    1.  **[nohttp tool](#nohttp-tool)**: **10.0** (weight is 0.5)
+1.  **[Security awareness](#security-awareness)**: **3.0** (weight is 0.9)
 1.  **[Unpatched vulnerabilities](#unpatched-vulnerabilities)**: **10.0** (weight is 0.8)
 1.  **[Vulnerability discovery and security testing](#vulnerability-discovery-and-security-testing)**: **2.0** (weight is 0.6)
-    1.  **[Security testing](#security-testing)**: **1.12** (weight is 1.0)
-        1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
-            1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
-            1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+    1.  **[Security testing](#security-testing)**: **3.12** (weight is 1.0)
         1.  **[Static analysis](#static-analysis)**: **2.8** (weight is 1.0)
             1.  **[LGTM score](#lgtm-score)**: **7.0** (weight is 1.0)
             1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
             1.  **[FindSecBugs score](#findsecbugs-score)**: **0.0** (weight is 0.5)
+        1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
+            1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+            1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
         1.  **[Fuzzing](#fuzzing)**: **N/A** (weight is 1.0)
         1.  **[Memory-safety testing](#memory-safety-testing)**: **N/A** (weight is 1.0)
-        1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
+        1.  **[nohttp tool](#nohttp-tool)**: **10.0** (weight is 0.5)
 1.  **[Community commitment](#community-commitment)**: **0.0** (weight is 0.5)
 1.  **[Project activity](#project-activity)**: **10.0** (weight is 0.5)
-1.  **[Project popularity](#project-popularity)**: **1.83** (weight is 0.5)
+1.  **[Project popularity](#project-popularity)**: **1.87** (weight is 0.5)
+1.  **[Security reviews](#security-reviews)**: **0.0** (weight is 0.3)
 
 
 ## How to improve the rating
@@ -67,6 +68,18 @@ It used the following sub-scores:
 5.  You can open a pull request to enable FindSecBugs for the project.
     More info:
     1.  [FindSecBugs home page](https://find-sec-bugs.github.io/)
+6.  You can add OWASP Dependency Check to the project's build pipeline.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [How to use OWASP Dependency Check with Maven](https://jeremylong.github.io/DependencyCheck/dependency-check-maven)
+    3.  [How to use OWASP Dependnecy Check with Gradle](https://github.com/dependency-check/dependency-check-gradle)
+7.  You can set a CVSS threshold for vulnerabilities reported by OWASP Dependency Check.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [Configuring OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/configuration.html)
+8.  You can enable artifact signing in the project's build pipeline.
+    More info:
+    1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
 
 
 ## Sub-scores
@@ -75,7 +88,7 @@ Below are the details about all the used sub-scores.
 
 ### Security testing
 
-Score: **1.12**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **3.12**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -83,21 +96,21 @@ Score: **1.12**, confidence is 10.0 (max), weight is 1.0 (high)
 
 This sub-score is based on the following sub-scores:
 
-1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
-    1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
-    1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
 1.  **[Static analysis](#static-analysis)**: **2.8** (weight is 1.0)
     1.  **[LGTM score](#lgtm-score)**: **7.0** (weight is 1.0)
     1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
     1.  **[FindSecBugs score](#findsecbugs-score)**: **0.0** (weight is 0.5)
+1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
+    1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+    1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
 1.  **[Fuzzing](#fuzzing)**: **N/A** (weight is 1.0)
 1.  **[Memory-safety testing](#memory-safety-testing)**: **N/A** (weight is 1.0)
-1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
+1.  **[nohttp tool](#nohttp-tool)**: **10.0** (weight is 0.5)
 
 
 ### Security awareness
 
-Score: **2.0**, confidence is 10.0 (max), weight is 0.9 (high)
+Score: **3.0**, confidence is 10.0 (max), weight is 0.9 (high)
 
 The score shows how a project is aware of security. If the project has a security policy, then the score adds 2.00. If the project has a security team, then the score adds 3.00. If the project uses verified signed commits, then the score adds 0.50. If the project has a bug bounty program, then the score adds 4.00. If the project signs its artifacts, then the score adds 0.50. If the project uses a security tool or library, then the score adds 1.00.
 
@@ -118,7 +131,7 @@ This sub-score is based on 17 features:
 1.  Does it use OWASP Java Encoder? **No**
 1.  Does it use OWASP Java HTML Sanitizer? **No**
 1.  Does it use UndefinedBehaviorSanitizer? **No**
-1.  Does it use nohttp? **No**
+1.  Does it use nohttp? **Yes**
 1.  Does it use verified signed commits? **No**
 1.  How is OWASP Dependency Check used? **Not used**
 1.  Is it included to OSS-Fuzz? **No**
@@ -145,17 +158,17 @@ The scores checks how security testing is done and how many vulnerabilities were
 
 This sub-score is based on the following sub-score:
 
-1.  **[Security testing](#security-testing)**: **1.12** (weight is 1.0)
-    1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
-        1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
-        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+1.  **[Security testing](#security-testing)**: **3.12** (weight is 1.0)
     1.  **[Static analysis](#static-analysis)**: **2.8** (weight is 1.0)
         1.  **[LGTM score](#lgtm-score)**: **7.0** (weight is 1.0)
         1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
         1.  **[FindSecBugs score](#findsecbugs-score)**: **0.0** (weight is 0.5)
+    1.  **[Dependency testing](#dependency-testing)**: **0.0** (weight is 1.0)
+        1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
     1.  **[Fuzzing](#fuzzing)**: **N/A** (weight is 1.0)
     1.  **[Memory-safety testing](#memory-safety-testing)**: **N/A** (weight is 1.0)
-    1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
+    1.  **[nohttp tool](#nohttp-tool)**: **10.0** (weight is 0.5)
 
 This sub-score is based on 1 feature:
 
@@ -181,17 +194,17 @@ Score: **10.0**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-181 commits in the last 3 months results to 10.00 points
-9 contributors increase the score value from 10.00 to 12.00
+456 commits in the last 3 months results to 10.00 points
+10 contributors increase the score value from 10.00 to 12.00
 
 This sub-score is based on 2 features:
 
-1.  Number of commits in the last three months: **181**
-1.  Number of contributors in the last three months: **9**
+1.  Number of commits in the last three months: **456**
+1.  Number of contributors in the last three months: **10**
 
 ### Project popularity
 
-Score: **1.83**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **1.87**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score is based on number of stars and watchers.
 Here is how a number of stars contributes to the score:
@@ -203,22 +216,20 @@ Here is how a number of watchers contributes to the score:
 
 This sub-score is based on 2 features:
 
-1.  Number of stars for a GitHub repository: **1416**
-1.  Number of watchers for a GitHub repository: **123**
+1.  Number of stars for a GitHub repository: **1457**
+1.  Number of watchers for a GitHub repository: **124**
 
-### Dependency testing
+### Security reviews
 
-Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
-
-
+Score: **0.0**, confidence is 10.0 (max), weight is 0.3 (medium)
 
 
 
-This sub-score is based on the following sub-scores:
+No security reviews have been done
 
-1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
-1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+This sub-score is based on 1 feature:
 
+1.  Info about security reviews: **0 security reviews**
 
 ### Static analysis
 
@@ -233,6 +244,20 @@ This sub-score is based on the following sub-scores:
 1.  **[LGTM score](#lgtm-score)**: **7.0** (weight is 1.0)
 1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
 1.  **[FindSecBugs score](#findsecbugs-score)**: **0.0** (weight is 0.5)
+
+
+### Dependency testing
+
+Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
+
+
+
+
+
+This sub-score is based on the following sub-scores:
+
+1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
 
 
 ### Fuzzing
@@ -265,7 +290,7 @@ This sub-score is based on 4 features:
 
 ### nohttp tool
 
-Score: **0.0**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **10.0**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 
 
@@ -273,37 +298,8 @@ Score: **0.0**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 This sub-score is based on 2 features:
 
-1.  Does it use nohttp? **No**
+1.  Does it use nohttp? **Yes**
 1.  Package managers: **GRADLE**
-
-### Dependabot score
-
-Score: **N/A**, confidence is 10.0 (max), weight is 1.0 (high)
-
-
-
-
-
-This sub-score is based on 4 features:
-
-1.  Does it use Dependabot? **No**
-1.  Does it use GitHub as the main development platform? **Yes**
-1.  Package managers: **GRADLE**
-1.  Programming languages: **JAVA, OTHER**
-
-### OWASP Dependency Check score
-
-Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
-
-
-
-
-
-This sub-score is based on 3 features:
-
-1.  How is OWASP Dependency Check used? **Not used**
-1.  Package managers: **GRADLE**
-1.  What is the threshold for OWASP Dependency Check? **Not specified**
 
 ### LGTM score
 
@@ -345,6 +341,35 @@ This sub-score is based on 2 features:
 
 1.  Does it use FindSecBugs? **No**
 1.  Programming languages: **JAVA, OTHER**
+
+### Dependabot score
+
+Score: **N/A**, confidence is 10.0 (max), weight is 1.0 (high)
+
+
+
+
+
+This sub-score is based on 4 features:
+
+1.  Does it use Dependabot? **No**
+1.  Does it use GitHub as the main development platform? **Yes**
+1.  Package managers: **GRADLE**
+1.  Programming languages: **JAVA, OTHER**
+
+### OWASP Dependency Check score
+
+Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
+
+
+
+
+
+This sub-score is based on 3 features:
+
+1.  How is OWASP Dependency Check used? **Not used**
+1.  Package managers: **GRADLE**
+1.  What is the threshold for OWASP Dependency Check? **Not specified**
 
 
 

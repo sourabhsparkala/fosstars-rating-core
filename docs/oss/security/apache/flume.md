@@ -2,11 +2,11 @@
 
 https://github.com/apache/flume
 
-Last updated on May 19, 2021
+Last updated on Jun 29, 2021
 
-**Rating**: **MODERATE**
+**Rating**: **BAD**
 
-**Score**: **4.56**, max score value is 10.0
+**Score**: **4.29**, max score value is 10.0
 
 **Confidence**: Max (10.0, max confidence value is 10.0)
 
@@ -47,7 +47,8 @@ It used the following sub-scores:
         1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
 1.  **[Community commitment](#community-commitment)**: **7.0** (weight is 0.5)
 1.  **[Project activity](#project-activity)**: **0.15** (weight is 0.5)
-1.  **[Project popularity](#project-popularity)**: **2.87** (weight is 0.5)
+1.  **[Project popularity](#project-popularity)**: **2.88** (weight is 0.5)
+1.  **[Security reviews](#security-reviews)**: **0.0** (weight is 0.3)
 
 
 ## How to improve the rating
@@ -67,6 +68,21 @@ It used the following sub-scores:
 5.  You can open a pull request to enable FindSecBugs for the project.
     More info:
     1.  [FindSecBugs home page](https://find-sec-bugs.github.io/)
+6.  You can configure Dependabot by creating a configuration file.
+    More info:
+    1.  [Configuration options for dependency updates](https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates)
+7.  You can add OWASP Dependency Check to the project's build pipeline.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [How to use OWASP Dependency Check with Maven](https://jeremylong.github.io/DependencyCheck/dependency-check-maven)
+    3.  [How to use OWASP Dependnecy Check with Gradle](https://github.com/dependency-check/dependency-check-gradle)
+8.  You can set a CVSS threshold for vulnerabilities reported by OWASP Dependency Check.
+    More info:
+    1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
+    2.  [Configuring OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/configuration.html)
+9.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores
@@ -190,7 +206,7 @@ This sub-score is based on 2 features:
 
 ### Project popularity
 
-Score: **2.87**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **2.88**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score is based on number of stars and watchers.
 Here is how a number of stars contributes to the score:
@@ -202,8 +218,20 @@ Here is how a number of watchers contributes to the score:
 
 This sub-score is based on 2 features:
 
-1.  Number of stars for a GitHub repository: **2129**
-1.  Number of watchers for a GitHub repository: **223**
+1.  Number of stars for a GitHub repository: **2143**
+1.  Number of watchers for a GitHub repository: **222**
+
+### Security reviews
+
+Score: **0.0**, confidence is 10.0 (max), weight is 0.3 (medium)
+
+
+
+No security reviews have been done
+
+This sub-score is based on 1 feature:
+
+1.  Info about security reviews: **0 security reviews**
 
 ### Dependency testing
 

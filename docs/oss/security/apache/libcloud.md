@@ -2,11 +2,11 @@
 
 https://github.com/apache/libcloud
 
-Last updated on May 19, 2021
+Last updated on Jun 29, 2021
 
-**Rating**: **GOOD**
+**Rating**: **MODERATE**
 
-**Score**: **6.07**, max score value is 10.0
+**Score**: **5.28**, max score value is 10.0
 
 **Confidence**: Max (10.0, max confidence value is 10.0)
 
@@ -46,8 +46,9 @@ It used the following sub-scores:
             1.  **[FindSecBugs score](#findsecbugs-score)**: **N/A** (weight is 0.5)
         1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
 1.  **[Community commitment](#community-commitment)**: **7.0** (weight is 0.5)
-1.  **[Project activity](#project-activity)**: **8.49** (weight is 0.5)
-1.  **[Project popularity](#project-popularity)**: **2.06** (weight is 0.5)
+1.  **[Project activity](#project-activity)**: **4.06** (weight is 0.5)
+1.  **[Project popularity](#project-popularity)**: **2.07** (weight is 0.5)
+1.  **[Security reviews](#security-reviews)**: **0.0** (weight is 0.3)
 
 
 ## How to improve the rating
@@ -58,6 +59,12 @@ It used the following sub-scores:
 2.  You can open a pull request to enable FindSecBugs for the project.
     More info:
     1.  [FindSecBugs home page](https://find-sec-bugs.github.io/)
+3.  You can enable artifact signing in the project's build pipeline.
+    More info:
+    1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
+4.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores
@@ -168,21 +175,21 @@ This sub-score is based on 3 features:
 
 ### Project activity
 
-Score: **8.49**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **4.06**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-46 commits in the last 3 months results to 7.08 points
-9 contributors increase the score value from 7.08 to 8.49
+24 commits in the last 3 months results to 3.69 points
+3 contributors increase the score value from 3.69 to 4.06
 
 This sub-score is based on 2 features:
 
-1.  Number of commits in the last three months: **46**
-1.  Number of contributors in the last three months: **9**
+1.  Number of commits in the last three months: **24**
+1.  Number of contributors in the last three months: **3**
 
 ### Project popularity
 
-Score: **2.06**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **2.07**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score is based on number of stars and watchers.
 Here is how a number of stars contributes to the score:
@@ -194,8 +201,20 @@ Here is how a number of watchers contributes to the score:
 
 This sub-score is based on 2 features:
 
-1.  Number of stars for a GitHub repository: **1762**
-1.  Number of watchers for a GitHub repository: **90**
+1.  Number of stars for a GitHub repository: **1771**
+1.  Number of watchers for a GitHub repository: **89**
+
+### Security reviews
+
+Score: **0.0**, confidence is 10.0 (max), weight is 0.3 (medium)
+
+
+
+No security reviews have been done
+
+This sub-score is based on 1 feature:
+
+1.  Info about security reviews: **0 security reviews**
 
 ### Dependency testing
 

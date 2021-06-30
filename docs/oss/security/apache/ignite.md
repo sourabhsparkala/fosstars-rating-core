@@ -2,13 +2,13 @@
 
 https://github.com/apache/ignite
 
-Last updated on May 19, 2021
+Last updated on Jun 29, 2021
 
-**Rating**: **MODERATE**
+**Rating**: **BAD**
 
-**Score**: **5.24**, max score value is 10.0
+**Score**: **4.39**, max score value is 10.0
 
-**Confidence**: Max (10.0, max confidence value is 10.0)
+**Confidence**: Low (8.12, max confidence value is 10.0)
 
 ## Details
 
@@ -20,10 +20,10 @@ The rating is based on **security score for open-source projects**.
 
 It used the following sub-scores:
 
-1.  **[Security testing](#security-testing)**: **1.78** (weight is 1.0)
-    1.  **[Dependency testing](#dependency-testing)**: **6.0** (weight is 1.0)
-        1.  **[Dependabot score](#dependabot-score)**: **6.0** (weight is 1.0)
-        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+1.  **[Security testing](#security-testing)**: **0.57** (weight is 1.0)
+    1.  **[Dependency testing](#dependency-testing)**: **N/A** (weight is 1.0)
+        1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **N/A** (weight is 1.0)
     1.  **[Fuzzing](#fuzzing)**: **0.0** (weight is 1.0)
     1.  **[Memory-safety testing](#memory-safety-testing)**: **0.0** (weight is 1.0)
     1.  **[Static analysis](#static-analysis)**: **2.0** (weight is 1.0)
@@ -33,11 +33,11 @@ It used the following sub-scores:
     1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
 1.  **[Security awareness](#security-awareness)**: **5.0** (weight is 0.9)
 1.  **[Unpatched vulnerabilities](#unpatched-vulnerabilities)**: **10.0** (weight is 0.8)
-1.  **[Vulnerability discovery and security testing](#vulnerability-discovery-and-security-testing)**: **0.0** (weight is 0.6)
-    1.  **[Security testing](#security-testing)**: **1.78** (weight is 1.0)
-        1.  **[Dependency testing](#dependency-testing)**: **6.0** (weight is 1.0)
-            1.  **[Dependabot score](#dependabot-score)**: **6.0** (weight is 1.0)
-            1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+1.  **[Vulnerability discovery and security testing](#vulnerability-discovery-and-security-testing)**: **2.0** (weight is 0.6)
+    1.  **[Security testing](#security-testing)**: **0.57** (weight is 1.0)
+        1.  **[Dependency testing](#dependency-testing)**: **N/A** (weight is 1.0)
+            1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+            1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **N/A** (weight is 1.0)
         1.  **[Fuzzing](#fuzzing)**: **0.0** (weight is 1.0)
         1.  **[Memory-safety testing](#memory-safety-testing)**: **0.0** (weight is 1.0)
         1.  **[Static analysis](#static-analysis)**: **2.0** (weight is 1.0)
@@ -46,8 +46,9 @@ It used the following sub-scores:
             1.  **[FindSecBugs score](#findsecbugs-score)**: **0.0** (weight is 0.5)
         1.  **[nohttp tool](#nohttp-tool)**: **0.0** (weight is 0.5)
 1.  **[Community commitment](#community-commitment)**: **7.0** (weight is 0.5)
-1.  **[Project activity](#project-activity)**: **10.0** (weight is 0.5)
-1.  **[Project popularity](#project-popularity)**: **4.79** (weight is 0.5)
+1.  **[Project activity](#project-activity)**: **unknown** (weight is 0.5)
+1.  **[Project popularity](#project-popularity)**: **4.84** (weight is 0.5)
+1.  **[Security reviews](#security-reviews)**: **0.0** (weight is 0.3)
 
 
 ## How to improve the rating
@@ -79,6 +80,12 @@ It used the following sub-scores:
 9.  You can include the project to OSS-Fuzz. Then, the project is going to be regularly fuzzed.
     More info:
     1.  [The OSS-Fuzz project](https://github.com/google/oss-fuzz)
+10.  You can enable artifact signing in the project's build pipeline.
+    More info:
+    1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
+11.  You can enable NoHttp tool in the project's build pipeline.
+    More info:
+    1.  [NoHttp tool home page](https://github.com/spring-io/nohttp)
 
 
 ## Sub-scores
@@ -87,7 +94,7 @@ Below are the details about all the used sub-scores.
 
 ### Security testing
 
-Score: **1.78**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **0.57**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -95,9 +102,9 @@ Score: **1.78**, confidence is 10.0 (max), weight is 1.0 (high)
 
 This sub-score is based on the following sub-scores:
 
-1.  **[Dependency testing](#dependency-testing)**: **6.0** (weight is 1.0)
-    1.  **[Dependabot score](#dependabot-score)**: **6.0** (weight is 1.0)
-    1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+1.  **[Dependency testing](#dependency-testing)**: **N/A** (weight is 1.0)
+    1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+    1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **N/A** (weight is 1.0)
 1.  **[Fuzzing](#fuzzing)**: **0.0** (weight is 1.0)
 1.  **[Memory-safety testing](#memory-safety-testing)**: **0.0** (weight is 1.0)
 1.  **[Static analysis](#static-analysis)**: **2.0** (weight is 1.0)
@@ -109,7 +116,7 @@ This sub-score is based on the following sub-scores:
 
 ### Security awareness
 
-Score: **5.0**, confidence is 10.0 (max), weight is 0.9 (high)
+Score: **5.0**, confidence is 9.41 (high), weight is 0.9 (high)
 
 The score shows how a project is aware of security. If the project has a security policy, then the score adds 2.00. If the project has a security team, then the score adds 3.00. If the project uses verified signed commits, then the score adds 0.50. If the project has a bug bounty program, then the score adds 4.00. If the project signs its artifacts, then the score adds 0.50. If the project uses a security tool or library, then the score adds 1.00.
 
@@ -131,7 +138,7 @@ This sub-score is based on 17 features:
 1.  Does it use OWASP Java HTML Sanitizer? **No**
 1.  Does it use UndefinedBehaviorSanitizer? **No**
 1.  Does it use nohttp? **No**
-1.  Does it use verified signed commits? **No**
+1.  Does it use verified signed commits? **unknown**
 1.  How is OWASP Dependency Check used? **Not used**
 1.  Is it included to OSS-Fuzz? **No**
 
@@ -149,7 +156,7 @@ This sub-score is based on 1 feature:
 
 ### Vulnerability discovery and security testing
 
-Score: **0.0**, confidence is 10.0 (max), weight is 0.6 (medium)
+Score: **2.0**, confidence is 10.0 (max), weight is 0.6 (medium)
 
 The scores checks how security testing is done and how many vulnerabilities were recently discovered. If testing is good, and there are no recent vulnerabilities, then the score value is max. If there are vulnerabilities, then the score value is high. If testing is bad, and there are no recent vulnerabilities, then the score value is low. If there are vulnerabilities, then the score is min.
 
@@ -157,10 +164,10 @@ The scores checks how security testing is done and how many vulnerabilities were
 
 This sub-score is based on the following sub-score:
 
-1.  **[Security testing](#security-testing)**: **1.78** (weight is 1.0)
-    1.  **[Dependency testing](#dependency-testing)**: **6.0** (weight is 1.0)
-        1.  **[Dependabot score](#dependabot-score)**: **6.0** (weight is 1.0)
-        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+1.  **[Security testing](#security-testing)**: **0.57** (weight is 1.0)
+    1.  **[Dependency testing](#dependency-testing)**: **N/A** (weight is 1.0)
+        1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+        1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **N/A** (weight is 1.0)
     1.  **[Fuzzing](#fuzzing)**: **0.0** (weight is 1.0)
     1.  **[Memory-safety testing](#memory-safety-testing)**: **0.0** (weight is 1.0)
     1.  **[Static analysis](#static-analysis)**: **2.0** (weight is 1.0)
@@ -189,21 +196,20 @@ This sub-score is based on 3 features:
 
 ### Project activity
 
-Score: **10.0**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **unknown**, confidence is 0.0 (min), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-147 commits in the last 3 months results to 10.00 points
-9 contributors increase the score value from 10.00 to 12.00
+A score value couldn't be calculated because the number of commits is unknown
 
 This sub-score is based on 2 features:
 
-1.  Number of commits in the last three months: **147**
-1.  Number of contributors in the last three months: **9**
+1.  Number of commits in the last three months: **unknown**
+1.  Number of contributors in the last three months: **unknown**
 
 ### Project popularity
 
-Score: **4.79**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **4.84**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score is based on number of stars and watchers.
 Here is how a number of stars contributes to the score:
@@ -215,12 +221,24 @@ Here is how a number of watchers contributes to the score:
 
 This sub-score is based on 2 features:
 
-1.  Number of stars for a GitHub repository: **3834**
-1.  Number of watchers for a GitHub repository: **288**
+1.  Number of stars for a GitHub repository: **3873**
+1.  Number of watchers for a GitHub repository: **289**
+
+### Security reviews
+
+Score: **0.0**, confidence is 10.0 (max), weight is 0.3 (medium)
+
+
+
+No security reviews have been done
+
+This sub-score is based on 1 feature:
+
+1.  Info about security reviews: **0 security reviews**
 
 ### Dependency testing
 
-Score: **6.0**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **N/A**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -228,8 +246,8 @@ Score: **6.0**, confidence is 10.0 (max), weight is 1.0 (high)
 
 This sub-score is based on the following sub-scores:
 
-1.  **[Dependabot score](#dependabot-score)**: **6.0** (weight is 1.0)
-1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
+1.  **[Dependabot score](#dependabot-score)**: **N/A** (weight is 1.0)
+1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **N/A** (weight is 1.0)
 
 
 ### Fuzzing
@@ -286,11 +304,11 @@ Score: **0.0**, confidence is 10.0 (max), weight is 0.5 (medium)
 This sub-score is based on 2 features:
 
 1.  Does it use nohttp? **No**
-1.  Package managers: **MAVEN, GRADLE, DOTNET**
+1.  Package managers: **None**
 
 ### Dependabot score
 
-Score: **6.0**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **N/A**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -300,12 +318,12 @@ This sub-score is based on 4 features:
 
 1.  Does it use Dependabot? **No**
 1.  Does it use GitHub as the main development platform? **Yes**
-1.  Package managers: **MAVEN, GRADLE, DOTNET**
+1.  Package managers: **None**
 1.  Programming languages: **C, CPP, JAVA, SCALA, C_SHARP, PHP, PYTHON, JAVASCRIPT, OTHER**
 
 ### OWASP Dependency Check score
 
-Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **N/A**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -314,7 +332,7 @@ Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
 This sub-score is based on 3 features:
 
 1.  How is OWASP Dependency Check used? **Not used**
-1.  Package managers: **MAVEN, GRADLE, DOTNET**
+1.  Package managers: **None**
 1.  What is the threshold for OWASP Dependency Check? **Not specified**
 
 ### LGTM score
